@@ -8,7 +8,7 @@ namespace TrabalhoAED
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Questão 1 a 33: ");
+            Console.Write("Questão 1 a 33: ");
             int escolha = int.Parse(Console.ReadLine());
 
 
@@ -39,22 +39,28 @@ namespace TrabalhoAED
                     Questao8.Rodar();
                     break;
                 case 9:
-
+                    Questao9.Rodar();
                     break;
                 case 10:
+                    Questao10.Rodar();
                     break;
                 case 11:
+                    Questao11.Rodar();
                     break;
                 case 12:
                     Questao12.Rodar();
                     break;
                 case 13:
+                    Questao13.Rodar();
                     break;
                 case 14:
+                    Questao14.Rodar();
                     break;
                 case 15:
+                    Questao15.Rodar();
                     break;
                 case 16:
+                    Questao16.Rodar();
                     break;
                 case 17:
                     break;
